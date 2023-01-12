@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<meta name="description" content="20試合９つの野球場へ行ったホークスファンがおくる各球場の特徴">
+
+<!-- https://ogp.me/ -->
+<meta property="og:title" content="ホークスファンがおくる各球場の特徴"/>
+<meta property="og:site_name" content="球場レポート2022">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja-JP">
+<meta property="og:image" content="assets/images/common/ogp.jpg">
+
+<meta property="og:description" content="20試合９つの野球場へ行ったホークスファンがおくる各球場の特徴"/>
+<meta name="twitter:card" content="summary" />
+<title>球場レポート2022</title>
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/common.css">
+<link rel="stylesheet" href="assets/css/top.css">
+<link rel="apple-touch-icon" href="assets/images/top/top.jpg">
+</head>
+
+<body>
+<header class="header">
+  <h1 id="top">球場レポート2022</h1>
+  <div id="nav-drawer">
+    <input id="nav-input" class="none" type="checkbox">
+    <label id="nav-open" for="nav-input"><span></span></label>
+    <label id="nav-close" class="none" for="nav-input"></label>
+    <nav id="nav-content" class="header__navigation">
+      <div class="nav-drawer__title none">DHW CAFE</div>
+      <ul>
+        <li><a class="nav-drawer__link-top none" href="#top">TOP</a></li>
+        <li><a href="#menu">球場紹介</a></li>
+        <li><a href="#access">一番訪れる球場</a></li>
+        <li><a href="#news">戦歴</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main">
+  <section class="section-top">
+    <div class="section-top__image">
+      <h2>野球場へ行こう</h2>
+      <div class="section-top__image-message">グルメ・雰囲気　千差万別</div>
+    </div>
+    <div class="section-top__lead">
+      <p> 2022年<br>
+        20試合９つの野球場へ行った<br>
+        ホークスファンがおくる各球場の特徴 </p>
+    </div>
+  </section>
+  <section class="section-menu">
+    <h2 id="menu">球場紹介</h2>
+    <ul>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/jingu_1.jpg" alt="jingu_2">
+        <h3 class="section-menu__item-title">神宮球場</h3>
+        <p class="section-menu__item-description"> なだらかな傾斜が特徴 <br>
+          春のデイゲームの気持ちよさ！<br>
+          都心からのアクセスも◎<br>
+          <span>×　食事メニュー少ない、座席、設備古い・・・</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/hamasuta_1.jpg" alt="hamasuta">
+        <h3 class="section-menu__item-title">横浜スタジアム</h3>
+        <p class="section-menu__item-description"> 外野の裏に都会が見えるスタジアム！<br>
+          駅から近い！イニング間のイベントが楽しい！<br>
+          <span>×　特になし</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/beruna_1.jpg" alt="beruna_1">
+        <h3 class="section-menu__item-title">ベルーナドーム</h3>
+        <p class="section-menu__item-description"> 外の空気を感じるのに屋根がある！<br>
+          急勾配で迫力ある座席が特徴！食事の豊富さ美味しさで有名　<br>
+          <span>×　夏は暑い、虫もでる、駅が辺鄙・・・</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/tokyo_1.jpg" alt="tokyo_1">
+        <h3 class="section-menu__item-title">東京ドーム</h3>
+        <p class="section-menu__item-description"> 空調設備、グルメ、アクセス完璧！<br>
+          ホームランがでやすい？<br>
+          <span>×　出入口の気圧による突風が怖い！<br>
+          照明が少し暗く感じる・・・<br>
+          </span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/kitakyu_1.jpg" alt="kitakyu_1">
+        <h3 class="section-menu__item-title">北九州市民球場</h3>
+        <p class="section-menu__item-description"> 地方球場ならではの距離の近さ！<br>
+          出店のお祭り感、懐かしさ<br>
+          ドラマが生まれる！<br>
+          <span>×　設備が古い、アクセスが悪い・・・</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/paypay_1.jpg" alt="paypay_1">
+        <h3 class="section-menu__item-title">PayPayドーム</h3>
+        <p class="section-menu__item-description"> アクティビティ、お買い物施設が併設<br>
+          日本一の巨大ビジョンの迫力！<br>
+          グルメのレベルも高い！<br>
+          <span>×　天神からバスで30分と遠い・・・</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/zozo_1.jpg" alt="zozo_1">
+        <h3 class="section-menu__item-title">ZOZOマリンスタジアム</h3>
+        <p class="section-menu__item-description"> 海風が吉と出るか凶とでるか<br>
+          選手とのコラボグルメが美味しい！<br>
+          場内アナウンスが独特！<br> 
+          <span>×　駅から遠い、球場近くには何もない・・・ </span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/rakuten_1.jpg" alt="rakuten_1">
+        <h3 class="section-menu__item-title">楽天生命パーク</h3>
+        <p class="section-menu__item-description"> さすがの東北、グルメが美味しい！<br>
+          駅から歩ける距離感◎席種も豊富◎<br>
+          観覧車がシンボル！<br>
+          <span>×　ナイターは虫が大量・・・</span> </p>
+      </li>
+      <li> <img class="section-menu__item-picture" src="assets/images/top/kyousera_1.jpg" alt="kyousera_1">
+        <h3 class="section-menu__item-title">京セラドーム</h3>
+        <p class="section-menu__item-description"> 関西ならではのグルメ多数！<br>
+          イオンがすぐそばにあって便利<br>
+          ビジョンの映像のエンタメ性が高い！<br>
+          <span>×　座席位置が高く、選手と距離がある・・・</span> </p>
+      </li>
+    </ul>
+  </section>
+  <section class="section-access">
+    <h2 id="access">一番訪れる球場</h2>
+    <address>
+    〒359-1153 埼玉県所沢市上山口２１３５<br><span class="section-access__break"></span> 
+    042-925-1141<br>
+    </address>
+    <div class="section-access__map"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.276731488961!2d139.4183745152613!3d35.768578080174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018de26f47cfbd3%3A0xa09b9b1c140042ce!2z44OZ44Or44O844OK44OJ44O844Og!5e0!3m2!1sja!2sjp!4v1673493215999!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <section class="section-news">
+    <h2 id="news">戦歴</h2>
+    <ol>
+      <li>
+        <time datetime="2001-01-01">2022/03/11</time>
+        <h3>VS東京ヤクルトスワローズ：4－3　●</h3>
+        <p>柳田・グラシアルのHRが出るも、一歩及ばず</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/03/12</time>
+        <h3>VS東京ヤクルトスワローズ：11-5 ●</h3>
+        <p>先発東浜の大炎上</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/04/08</time>
+        <h3>VS埼玉西武ライオンズ:　1-8 〇</h3>
+        <p>先発千賀が好投、牧原の2ラン</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/04/09</time>
+        <h3>VS埼玉西武ライオンズ: 0-0　△</h3>
+        <p>投手戦　最終回相手のバント失敗に救われる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/05/24</time>
+        <h3>vs横浜DeNAベイスターズ: 4－3　●</h3>
+        <p>佐野に3ランを浴びる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/05/25</time>
+        <h3>vs横浜DeNAベイスターズ: 2－8　〇</h3>
+        <p>東浜が途中交代も、ロングリリーフ松本が好投</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/05/31</time>
+        <h3>vs読売ジャイアンツ: 1－3　〇</h3>
+        <p>先発石川が好投　柳田まさかの5タコ</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/06/02</time>
+        <h3>vs読売ジャイアンツ: 3－0　●</h3>
+        <p>ソロホームラン3本を浴びる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/06/27</time>
+        <h3>vs千葉ロッテマリーンズ: 1－8　●</h3>
+        <p>年に1度の東京での鷹の祭典　緊急先発の大竹が誤算　レアードに3ランを浴びる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/07/20</time>
+        <h3>vs東北楽天ゴールデンイーグルス: 3－17　●</h3>
+        <p>世紀の大敗　5本のホームランを浴びる　最終回”北九州男”の甲斐が魅せる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/07/21</time>
+        <h3>vs東北楽天ゴールデンイーグルス: 7－0　〇</h3>
+        <p>前日の試合を払拭するエース千賀の好投　打線も繋がる</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/08/09</time>
+        <h3>vs千葉ロッテマリーンズ: 0－3　〇</h3>
+        <p>海風に助けられながら先発石川が好投</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/08/17</time>
+        <h3>VS埼玉西武ライオンズ: 3－5　〇</h3>
+        <p>初回から打線が繋がり勝ち逃げ</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/08/18</time>
+        <h3>VS埼玉西武ライオンズ: 8－5　●</h3>
+        <p>初回から得点するもすぐに追い付かれ、追い上げるも及ばず</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/09/15</time>
+        <h3>vs東北楽天ゴールデンイーグルス: 3－7　〇</h3>
+        <p>先発和田が好投　柳田の2ランなど打線繋がり快勝</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/09/16</time>
+        <h3>vs東北楽天ゴールデンイーグルス: 2－6　〇</h3>
+        <p>抑えの森がまさかの先発　柳田、デスパイネの3ランが飛び出し快勝</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/09/</time>
+        <h3>VS埼玉西武ライオンズ: 4－1　●</h3>
+        <p>山川に2ランを浴び、デスパイネのソロHRが出るも及ばず</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/10/02</time>
+        <h3>vs千葉ロッテマリーンズ: 5－3　●</h3>
+        <p>人生で一番悔しさを感じた日　HRが2本出るも、山口に逆転3ランを浴び、優勝を逃す</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/10/12</time>
+        <h3>vsオリックス・バファローズ: 5－0　●</h3>
+        <p>王者オリックスに手も足も出ず</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/10/13</time>
+        <h3>vsオリックス・バファローズ: 4－3　●</h3>
+        <p>シーソーゲームが続いていたが、杉本に2ランを浴び、その後得点するも一歩及ばず</p>
+      </li>
+      <li>
+        <time datetime="2001-01-01">2022/11/05</time>
+        <h3>vs北海道日本ハムファイターズ: 4－5　〇</h3>
+        <p>牧、森、村上のホームランが飛び出すなど、日本代表らしい点の取り方をする試合</p>
+      </li>
+    </ol>
+  </section>
+</main>
+<footer class="footer">
+  <div class="footer__container">
+    <nav class="footer__site-map">
+      <h2>球場レポート2022</h2>
+      <ul>
+        <li><a href="#top">TOP</a></li>
+        <li><a href="#menu">球場紹介</a></li>
+        <li><a href="#access">一番訪れる球場</a></li>
+        <li><a href="#news">戦歴</a></li>
+      </ul>
+    </nav>
+    <div class="footer__sns_links">
+      <ul>
+        <li><img src="assets/images/common/instagram.png" alt="instagram icon"></li>
+        <li><img src="assets/images/common/twitter.png" alt="twitter icon"></li>
+        <li><img src="assets/images/common/facebook.png" alt="facebook icon"></li>
+      </ul>
+    </div>
+    <small>Karin</small> </div>
+</footer>
+</body>
+</html>
